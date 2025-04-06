@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c1fc39090288efa4e9b9f22ca0473733
+guid: 41bf5a49c1f2e4042954387faedb900e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4045245825591125418
-    second: Doodle Button Green_0
+      213: -1688708740283438173
+    second: Doodle Button Blue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doodle Button Green_0
+      name: Doodle Button Blue_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 167
-        width: 508
-        height: 161
+        x: 7
+        y: 0
+        width: 497
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65a5280ba566cd7c0800000000000000
-      internalID: -4045245825591125418
+      spriteID: 3abee4e09508098e0800000000000000
+      internalID: -1688708740283438173
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doodle Button Green_0: -4045245825591125418
+      Doodle Button Blue_0: -1688708740283438173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

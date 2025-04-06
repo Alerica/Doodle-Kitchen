@@ -44,7 +44,7 @@ public class PlantUI : MonoBehaviour
 
         Debug.Log("Harvested: " + plantData.fruitName + " x" + plantData.harvestYield);
 
-        InventoryManager.Instance.AddItem(plantData.itemData, plantData.harvestYield);
+        InventoryManager.Instance.AddItem(plantData.itemData, plantData.harvestYield + GameManager.Instance.plantYield);
 
         ResetPlant();
     }
