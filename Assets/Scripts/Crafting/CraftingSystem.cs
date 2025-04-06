@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using TMPro;
 
 public class CraftingSystem : MonoBehaviour
@@ -7,6 +8,9 @@ public class CraftingSystem : MonoBehaviour
     public CraftingSlot[] craftingSlots;
     public RecipeBook recipeBook;
     public TextMeshProUGUI cookingResultText;
+    public ItemData disgustedMesh;
+
+    public Image[] plateAndBowlImage;
 
     public void OnCookButtonPressed()
     {
@@ -17,7 +21,7 @@ public class CraftingSystem : MonoBehaviour
             var item = slot.GetSelectedItem();
             if (item == null)
             {
-                cookingResultText.text = "Missing ingredient!";
+                cookingResultText.text = "Missing ingredient! You need 3 to cook";
                 Debug.Log("Missing ingredient!");
                 return;
             }
@@ -38,12 +42,15 @@ public class CraftingSystem : MonoBehaviour
                     }
             
             InventoryManager.Instance.AddItem(result);
-            cookingResultText.text = $"Cooked: {result.itemName}";
+            cookingResultText.text = $"You just make {result.itemName}!";
+            plateAndBowlImage[Random.Range(0,2)].sprite = result.icon;
             Debug.Log("Cooked: " + result.itemName);
         }
         else
         {
-            cookingResultText.text = "Unknown recipe!";
+            foreach (var item in selectedItems) InventoryManager.Instance.RemoveItem(item);
+            InventoryManager.Instance.AddItem(disgustedMesh);
+            cookingResultText.text = "Unknown recipe! You got a Disgusted Mesh!";
             Debug.Log("Unknown recipe!");
         }
 

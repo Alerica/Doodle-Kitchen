@@ -13,7 +13,7 @@ public class FarmManager : MonoBehaviour
     public int fertilizerCost = 250;
 
     public int currentFertilizerUpgrade = 1;
-    public int maximumFertilizerUpgrade = 5;
+    public int maximumFertilizerUpgrade = 10;
     public int autoHarvestCost = 5000;
 
 
@@ -28,9 +28,10 @@ public class FarmManager : MonoBehaviour
 
         if (GameManager.Instance.gold >= plantCost)
         {
-            GameManager.Instance.gold -= plantCost;
+            GameManager.Instance.removeGold(plantCost);
             plantSlots[unlockedPlantCount].SetActive(true); 
             unlockedPlantCount++;
+            farmShopText.text = $"{plantSlots[unlockedPlantCount - 1].name} Purchased!";
         }
         else
         {
@@ -45,9 +46,10 @@ public class FarmManager : MonoBehaviour
         {
             if (GameManager.Instance.gold >= fertilizerCost)
             {
-                GameManager.Instance.gold -= fertilizerCost;
+                GameManager.Instance.removeGold(plantCost);
                 GameManager.Instance.AddPlantYield();
                 currentFertilizerUpgrade++;
+                farmShopText.text = $"Plant got extra {GameManager.Instance.plantYield} yield!";
             }
             else
             {
@@ -67,8 +69,9 @@ public class FarmManager : MonoBehaviour
     {
         if (GameManager.Instance.gold >= autoHarvestCost)
         {
-            GameManager.Instance.gold -= autoHarvestCost;
+            GameManager.Instance.removeGold(plantCost);
             GameManager.Instance.ActivateAutoHarvest();
+            farmShopText.text = "Auto Harvest Unlocked!";
         } 
         else
         {

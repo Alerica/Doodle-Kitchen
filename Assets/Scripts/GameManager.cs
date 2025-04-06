@@ -1,8 +1,12 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set;}
+
+    [Header("Reference")]
+    public TextMeshProUGUI coinText;
 
     [Header("Currency")]
     [SerializeField] public int gold;
@@ -27,6 +31,18 @@ public class GameManager : MonoBehaviour
     public void ActivateAutoHarvest()
     {
         isAutoHarvest = true;
+    }
+
+    public void AddGold(int amount)
+    {
+        gold += amount;
+        coinText.text = gold + "";
+    }
+
+    public void removeGold(int amount)
+    {
+        gold -= amount;
+        coinText.text = gold + "";
     }
     
 }
