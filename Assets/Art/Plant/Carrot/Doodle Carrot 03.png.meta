@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6dac48d6544a6043ab162f1bafdcd0d
+guid: 87f9a03d951f5614ab3a3ef9f97f15bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5395847805828985201
-    second: Doodle Tomato_0
+      213: 1168745459481669760
+    second: Doodle Carrot 03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,7 +47,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doodle Tomato_0
+      name: Doodle Carrot 03_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 107
-        width: 319
-        height: 288
+        x: 192
+        y: 76
+        width: 121
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8e0e7f42091e15b0800000000000000
-      internalID: -5395847805828985201
+      spriteID: 08071499dc7383010800000000000000
+      internalID: 1168745459481669760
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doodle Tomato_0: -5395847805828985201
+      Doodle Carrot 03_0: 1168745459481669760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

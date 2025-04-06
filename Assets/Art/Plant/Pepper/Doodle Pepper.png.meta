@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6dac48d6544a6043ab162f1bafdcd0d
+guid: b2e56e7e533b78a43b6efd9026b85529
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5395847805828985201
-    second: Doodle Tomato_0
+      213: -3647247049366399178
+    second: Doodle Pepper_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doodle Tomato_0
+      name: Doodle Pepper_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 107
-        width: 319
-        height: 288
+        x: 142
+        y: 110
+        width: 198
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8e0e7f42091e15b0800000000000000
-      internalID: -5395847805828985201
+      spriteID: 6379c6ee120626dc0800000000000000
+      internalID: -3647247049366399178
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doodle Tomato_0: -5395847805828985201
+      Doodle Pepper_0: -3647247049366399178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

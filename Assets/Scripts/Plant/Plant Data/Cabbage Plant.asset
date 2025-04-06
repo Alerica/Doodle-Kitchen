@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa817860b6657f541b30edd5717a1adb, type: 3}
+  m_Name: Cabbage Plant
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 21300000, guid: ba91633bcccbb814a99ad9907b44e7cd, type: 3}
+  - {fileID: 21300000, guid: 577838a3bdc688d45a314ecfdba99f19, type: 3}
+  - {fileID: 21300000, guid: 37f06a770ab800d43bf7074e05235b0f, type: 3}
+  growthTimeSeconds: 30
+  fruitName: Cabbage
+  harvestYield: 5
+  itemData: {fileID: 11400000, guid: 2d40fbb1d7caacf4a8eb75f4ce06fa9e, type: 2}

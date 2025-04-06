@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6dac48d6544a6043ab162f1bafdcd0d
+guid: 9bcb7968023b52143b93f82eaf07b3ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5395847805828985201
-    second: Doodle Tomato_0
+      213: 9179220185000711124
+    second: Doodle Corn 03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doodle Tomato_0
+      name: Doodle Corn 03_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 107
-        width: 319
-        height: 288
+        x: 128
+        y: 87
+        width: 245
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8e0e7f42091e15b0800000000000000
-      internalID: -5395847805828985201
+      spriteID: 4d3101aef14236f70800000000000000
+      internalID: 9179220185000711124
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doodle Tomato_0: -5395847805828985201
+      Doodle Corn 03_0: 9179220185000711124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

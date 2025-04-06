@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6dac48d6544a6043ab162f1bafdcd0d
+guid: 0ba0f516fe3c58441a68b0e9d4a47a34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5395847805828985201
-    second: Doodle Tomato_0
+      213: 586169730264499973
+    second: Doodle Potato_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doodle Tomato_0
+      name: Doodle Potato_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 107
-        width: 319
+        x: 108
+        y: 117
+        width: 329
         height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8e0e7f42091e15b0800000000000000
-      internalID: -5395847805828985201
+      spriteID: 5078086934e722800800000000000000
+      internalID: 586169730264499973
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doodle Tomato_0: -5395847805828985201
+      Doodle Potato_0: 586169730264499973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,13 +6,16 @@ public class GameManager : MonoBehaviour
 
     [Header("Currency")]
     [SerializeField] private int gold;
-
+    
 
     [Header("Upgrades")]
     public bool isAutoHarvest;
-    
+
     void Awake()
     {
         Instance = this;
+        gold = 100;
     }
+
+    
 }

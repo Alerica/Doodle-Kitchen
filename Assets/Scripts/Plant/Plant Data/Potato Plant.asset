@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa817860b6657f541b30edd5717a1adb, type: 3}
+  m_Name: Potato Plant
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 21300000, guid: bd3f48eb81f87e74db333cdd8560ab0b, type: 3}
+  - {fileID: 21300000, guid: 11392362ba0312a4abc833e034d4f013, type: 3}
+  - {fileID: 21300000, guid: f6e5ba917eb143140beef1bb58928c8a, type: 3}
+  - {fileID: 21300000, guid: e29f053782f671a4b84c4d3db766965f, type: 3}
+  growthTimeSeconds: 60
+  fruitName: Potato Plant
+  harvestYield: 6
+  itemData: {fileID: 11400000, guid: d1bbe6d2c9523a74eba7c4f052ce3490, type: 2}

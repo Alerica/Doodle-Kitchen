@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa817860b6657f541b30edd5717a1adb, type: 3}
+  m_Name: Pepper Plant
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 21300000, guid: 5e6b77e020dc33e4fbc0ca84764ecf3c, type: 3}
+  - {fileID: 21300000, guid: 2cc5a0de47c67c345b00f8c5bb514756, type: 3}
+  - {fileID: 21300000, guid: 38fa875fb70c22d4a981b6b863459fd5, type: 3}
+  - {fileID: 21300000, guid: 8256f02c9d15a284790fd2f5be8481b1, type: 3}
+  growthTimeSeconds: 8
+  fruitName: Pepper
+  harvestYield: 1
+  itemData: {fileID: 11400000, guid: 9fd1b7eaa7980cf47b3b80cdc7525f9d, type: 2}

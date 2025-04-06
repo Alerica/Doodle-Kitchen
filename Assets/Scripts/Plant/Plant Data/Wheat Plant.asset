@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa817860b6657f541b30edd5717a1adb, type: 3}
+  m_Name: Wheat Plant
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 21300000, guid: ed6217dba3ed50b4daf2d93006fddc1b, type: 3}
+  - {fileID: 21300000, guid: a541f74a1cd31f140a03c5bccf892fd9, type: 3}
+  - {fileID: 21300000, guid: 7681dc6af2419274eb563ddd265fcb17, type: 3}
+  - {fileID: 21300000, guid: 3c000c49931a31d42a6a61a8b2b3526d, type: 3}
+  growthTimeSeconds: 15
+  fruitName: Wheat
+  harvestYield: 6
+  itemData: {fileID: 11400000, guid: 30c8fa69a517f1b4d9e426799b300f50, type: 2}
