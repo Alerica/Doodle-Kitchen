@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Disgusted Mesh
   m_EditorClassIdentifier: 
   itemName: Disgusted Mesh
-  icon: {fileID: 21300000, guid: c4b7069a132910547a51a200f0c84f3c, type: 3}
+  icon: {fileID: 21300000, guid: ab94aac1e55abe24ab5fe59492487749, type: 3}
   itemType: 1

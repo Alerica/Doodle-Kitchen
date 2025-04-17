@@ -14,7 +14,7 @@ public class FarmManager : MonoBehaviour
 
     public int currentFertilizerUpgrade = 1;
     public int maximumFertilizerUpgrade = 10;
-    public int autoHarvestCost = 5000;
+    public int autoHarvestCost = 1000;
 
 
     public void BuyNewPlant()
@@ -31,6 +31,7 @@ public class FarmManager : MonoBehaviour
             GameManager.Instance.removeGold(plantCost);
             plantSlots[unlockedPlantCount].SetActive(true); 
             unlockedPlantCount++;
+            if(unlockedPlantCount >= plantSlots.Length) GameManager.Instance.UnlockPlantTropy(); 
             farmShopText.text = $"{plantSlots[unlockedPlantCount - 1].name} Purchased!";
         }
         else
@@ -82,6 +83,7 @@ public class FarmManager : MonoBehaviour
 
     public void ToggleShopPanel()
     {
+        GameManager.Instance.DisableFarmGuide();
         if(shopPanelOpen)   
             shopPanel.SetActive(false);
         else

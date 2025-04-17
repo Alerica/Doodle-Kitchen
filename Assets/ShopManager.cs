@@ -12,7 +12,7 @@ public class ShopManager : MonoBehaviour
         {
             if (item.Key.itemType == ItemType.Food)
             {
-                int pricePerItem = item.Key.itemName == "Disgusted Mesh" ? 1 : 20;
+                int pricePerItem = item.Key.itemName == "Disgusted Mesh" ? 10 : 50;
                 GameManager.Instance.AddGold(item.Value * pricePerItem);
                 itemsToRemove.Add(item.Key);
             }
@@ -25,4 +25,5 @@ public class ShopManager : MonoBehaviour
 
         Debug.Log("[Shop] Sold all food.");
     }
+    
 }

@@ -42,6 +42,8 @@ public class CraftingSystem : MonoBehaviour
                     }
             
             InventoryManager.Instance.AddItem(result);
+            GameManager.Instance.DisableKitchenGuide();
+            GameManager.Instance.OnFoodMade(result.itemName);
             cookingResultText.text = $"You just make {result.itemName}!";
             plateAndBowlImage[Random.Range(0,2)].sprite = result.icon;
             Debug.Log("Cooked: " + result.itemName);

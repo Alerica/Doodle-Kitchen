@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class TestAddItem : MonoBehaviour
 {
-    public ItemData tomato;
+    public ItemData[] itemToAdds;
 
     void Start()
     {
-        InventoryManager.Instance.AddItem(tomato, 5);
+        foreach(ItemData itemToAdd in itemToAdds)
+            InventoryManager.Instance.AddItem(itemToAdd, 5);
     }
 }
 
